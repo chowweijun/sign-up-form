@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    
+}
+#main {
+    display:flex;
+    align-items: center;
+}
+
+#images {
+    position: relative;
+}
+
+#pokeball {
+    position: absolute;
+    left:150px;
+    top:150px;
+}
+
+#container {
+    flex-grow: 1;
+    
+}
+
+p,#form,#button {
+    width:auto;
+    height:300px;
+}
+
+p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: whitesmoke;
+    margin:0;
+    padding:30px;
+}
+
+#form {
+    border-left:1px solid whitesmoke;
+}
+
+label {
+    font:0.8em "typewriter", "sans-serif";
+}
+
+input {
+    font:1em "typewriter", "sans-serif";
+    
+}
+
+#button {
+    background-color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap:100px;
+    margin:30px 0px;
+    
+}
+
+legend {
+    padding-left:40px;
+    padding-top:20px;
+}
+
+@font-face {
+    font-family: "typewriter";
+    src: url("norse/Norse/Norse-Bold.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
